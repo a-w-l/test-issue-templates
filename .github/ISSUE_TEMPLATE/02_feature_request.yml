@@ -1,0 +1,23 @@
+name: Feature Request
+description: Request a new feature or functionality.
+title: "[Feature]: "
+body:
+- type: markdown
+  attributes:
+    value: Thanks for taking the time to fill out this feature request!
+- type: input
+  id: package
+  attributes:
+    label: Package
+    description: Which package (if any) would the feature be added to?
+    placeholder: ex. tedl
+  validations:
+    required: false
+- type: textarea
+  id: description
+  attributes:
+    label: Feature description
+    description: Please describe the feature you are requesting, the use case for the feature, and any areas you have identified that would require this feature
+    placeholder: Add a package that will do my laundry!
+  validations:
+    required: true

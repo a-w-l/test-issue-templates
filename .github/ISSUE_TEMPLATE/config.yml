@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Unsure? Ask here!
+    url: https://www.google.com/
+    about: Please try to resolve your issue here before opening an issue

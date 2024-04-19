@@ -1,0 +1,31 @@
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+body:
+- type: markdown
+  attributes:
+    value: Thanks for taking the time to fill out this bug report!
+- type: input
+  id: package
+  attributes:
+    label: Affected package
+    description: In which package are you experiencing the bug?
+    placeholder: ex. tedl
+  validations:
+    required: false
+- type: input
+  id: version
+  attributes:
+    label: Version
+    description: What version of the package are you using?
+    placeholder: 1.0.0
+  validations:
+    required: false
+- type: textarea
+  id: description
+  attributes:
+    label: Bug description
+    description: Please describe your issue, along with reproduction steps where possible
+    placeholder: "A bug happened!"
+  validations:
+    required: true
